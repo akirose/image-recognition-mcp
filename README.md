@@ -31,7 +31,7 @@ To use this server with an MCP client, add the following configuration:
   "mcpServers": {
     "image-recognition": {
       "command": "npx",
-      "args": ["-y", "@akirose/image-recognition-mcp"],
+      "args": ["-y", "@it-master/image-recognition-mcp"],
       "env": {
         "OPENAI_API_KEY": "your-actual-openai-api-key-here"
       }
@@ -47,7 +47,7 @@ To allow access to image files from any path, set `ALLOW_ALL_PATHS` to `true`:
   "mcpServers": {
     "image-recognition": {
       "command": "npx",
-      "args": ["-y", "@akirose/image-recognition-mcp"],
+      "args": ["-y", "@it-master/image-recognition-mcp"],
       "env": {
         "OPENAI_API_KEY": "your-actual-openai-api-key-here",
         "ALLOW_ALL_PATHS": "true"
